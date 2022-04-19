@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
         String[] catty = getResources().getStringArray(R.array.delaet);
         ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, catty);
         cryptoList.setAdapter(adapter);
+
     }
 }
