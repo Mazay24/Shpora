@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView cryptoList = findViewById(R.id.cat);
+        ListView CatList = findViewById(R.id.cat);
         String[] catty = getResources().getStringArray(R.array.delaet);
         ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, catty);
-        cryptoList.setAdapter(adapter);
+        CatList.setAdapter(adapter);
     }
 }
