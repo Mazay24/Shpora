@@ -4,25 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/q_mcyxwe2zwrumjnhm_xl8k3rikgroaaejh3h_5ahsfvuv8r39g3g9ddhkdsmijvlqaj5auimwwk7zmfl4_dvmxz"
     tools:context=".MainActivity">
 
     <TextView
+        style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:fontFeatureSettings="@string/material_motion_easing_accelerated"
         android:text="@string/cat"
-        android:textSize="20sp"
+        android:textColor="#FF3D00"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.148" />
 
     <ListView
         android:id="@+id/cat"
         style="@android:style/Widget.ExpandableListView"
         android:layout_width="424dp"
         android:layout_height="550dp"
+        android:textFilterEnabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
