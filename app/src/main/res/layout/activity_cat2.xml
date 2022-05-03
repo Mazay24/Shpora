@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/npbmo7ldxt3m1m_vxamikvvpslolsngjty91po4z__0vkm9b_bo7xp_yyxx3vs_gdvynrqkluxj9ickow9nlysjn"
-    tools:context=".CatActivity2" />
-
-
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/catiweb">
+        </WebView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
